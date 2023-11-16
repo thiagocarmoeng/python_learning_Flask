@@ -27,7 +27,7 @@ usuarios = { usuario1.nickname : usuario1,
              usuario3.nickname : usuario3 }
 
 app = Flask(__name__)
-app.secret_key = 'alura'
+app.secret_key = 'lerningwithalura'
 
 @app.route('/')
 def index():
